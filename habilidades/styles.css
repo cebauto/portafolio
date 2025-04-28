@@ -1,0 +1,261 @@
+body, html{
+    font-family: "Be Vietnam Pro";
+    font-style: normal;
+    background-color: #fffdf6;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #88bac7;
+}
+
+a:hover{
+    font-family: "Be Vietnam Pro";
+    color: #0c4b5c;
+}
+
+#menuBtn{
+    font-family: "Be Vietnam Pro";
+    position: fixed;
+    font-size: 2rem;
+    color: #0c4b5c;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    z-index: 100000000;
+    cursor: pointer;
+}
+
+#sideMenu{
+    font-family: "Be Vietnam Pro";
+    position: fixed;
+    top: 0px;
+    left: -300px;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(197, 220, 226, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 99999999;
+}
+
+#sideMenu button{
+    font-family: "Be Vietnam Pro";
+    background: none;
+    top: 50px;
+    border: none;
+    color: #88bac7;
+    padding: 10px 20px;
+    font-size: 100%;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#sideMenu button:hover{
+    font-family: "Be Vietnam Pro";
+    color: #0c4b5c;
+}
+
+h3{
+    font-family: "Bebas Neue";
+    font-size: 5vw;
+    letter-spacing: 1vw;
+    text-align: center;
+    margin: 0;
+    color: #000;
+}
+
+.container5{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.container5 h3 {
+    font-family: "Bebas Neue";
+    font-size: 5vw;
+    letter-spacing: 1vw;
+    text-align: center;
+    margin: 0;
+    color: #000;
+}
+
+.container7{
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    left: 38%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.container7 ul{
+    position: absolute;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+    justify-content: space-evenly;
+    padding: 4px;
+    margin: 0;
+    left: 25%;
+}
+
+.container7 li{
+    position: relative;
+    text-align: center;
+    padding: 10%;
+    left: -45%;
+    justify-content: left;
+}
+
+.hab{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    left: 16%;
+    position: relative;
+
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+h4{
+    font-family: "Be Vietnam Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+    position: relative;
+    margin: 2vmin;
+}
+
+.hab img{
+    height: 10vw;
+    width: auto;
+}
+
+.barra {
+    width: 100%;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    height: 3vmin;
+}
+  
+.AfterEffects .barra-llenado {
+    height: 100%;
+    background-color: #7e67d9;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.Aspire .barra-llenado {
+    height: 100%;
+    background-color: #b61a1a;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.AutoCAD .barra-llenado {
+    height: 100%;
+    background-color: #c63852;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.Figma .barra-llenado {
+    height: 100%;
+    background-color: #49be6a;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.Illustrator .barra-llenado {
+    height: 100%;
+    background-color: #ef8d32;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.Lightroom .barra-llenado {
+    height: 100%;
+    background-color: #32a6ef;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.OpenProcessing .barra-llenado {
+    height: 100%;
+    background-color: #7c4c4c;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.Photoshop .barra-llenado {
+    height: 100%;
+    background-color: #247db7;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.VisualStudioCode .barra-llenado {
+    height: 100%;
+    background-color: #2672b0;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 3vmin;
+    font-size: 2.7vmin;
+    color: white;
+    font-weight: bold;
+}

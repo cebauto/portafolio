@@ -1,0 +1,225 @@
+body, html{
+    font-family: "Be Vietnam Pro";
+    font-style: normal;
+    background-color: #fffdf6;
+    height: 100%;
+}
+
+main{
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #88bac7;
+}
+
+a:hover{
+    font-family: "Be Vietnam Pro";
+    color: #0c4b5c;
+}
+
+#menuBtn{
+    font-family: "Be Vietnam Pro";
+    position: fixed;
+    font-size: 2rem;
+    color: #0c4b5c;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    z-index: 100000000;
+    cursor: pointer;
+}
+
+#sideMenu{
+    font-family: "Be Vietnam Pro";
+    position: fixed;
+    top: 0px;
+    left: -300px;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(197, 220, 226, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 99999999;
+}
+
+#sideMenu button{
+    font-family: "Be Vietnam Pro";
+    background: none;
+    top: 50px;
+    color: #88bac7;
+    padding: 10px 20px;
+    font-size: 100%;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#sideMenu button:hover{
+    font-family: "Be Vietnam Pro";
+    color: #0c4b5c;
+}
+
+h3{
+    font-family: "Bebas Neue";
+    font-size: 5vw;
+    letter-spacing: 1vw;
+    text-align: center;
+    margin: 0;
+    color: #000;
+}
+
+.container6 {
+    height: 20vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container6 h3 {
+    font-family: "Bebas Neue";
+    font-size: 5vw;
+    letter-spacing: 1vw;
+    margin: 0;
+    color: #000;
+}
+
+.container7{
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    left: 38%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.container7 ul{
+    position: absolute;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+    justify-content: space-evenly;
+    padding: 4px;
+    margin: 0;
+    left: 25%;
+}
+
+.container7 li{
+    position: relative;
+    text-align: center;
+    padding: 10%;
+    left: -45%;
+    justify-content: left;
+}
+
+nav{
+    margin-left: 15vw;
+    margin-top: 5vh;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#seccion{
+    left: 18.6%;
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.fecha{
+    font-family: 'Bebas Neue';
+    font-size: 3vw;
+
+}
+
+h4{
+    font-family: "Be Vietnam Pro";
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+}
+
+button{
+    justify-content: space-evenly;
+    border: none;
+    background-color: none;
+}
+
+.galeriaProyectos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.galeriaProyectos h4{
+    font-weight: 500;
+    z-index: 1000000000;
+}
+
+.fotosTrabajos{
+    position: relative;
+    padding: 20px;
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.fotosTrabajos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    transition: filter 0.3s ease;
+}
+
+.fotosTrabajos h4{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    color: #000;
+    font-family: "Be Vietnam Pro";
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+li{
+    list-style: none;
+    text-decoration-line: none;
+}
+
+.fotosTrabajos:hover img{
+    filter: blur(5px);
+}
+
+.fotosTrabajos:hover h4{
+    opacity: 1;
+    visibility: visible;
+}
